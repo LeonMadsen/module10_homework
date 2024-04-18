@@ -1,0 +1,30 @@
+.btn .svg1 {
+	display: block;
+    margin: 0 auto;
+}
+.btn .svg2 {
+	display: none;
+}
+
+.btn.btn--toggle .svg1 {
+	display: none;
+}
+.btn.btn--toggle .svg2 {
+	display: block;
+}
+
+
+
+.btn {
+  width: 450px;
+  height: 250px;
+  cursor: pointer;
+  background-color: pink;
+  padding: 0 auto;
+}
+
+.btn svg {
+  width: 100%;
+  height: 100%;
+}
+
